@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh background-attachment: fixed;</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .background-fixed {
+            background-image: url("file:///C:/Users/M%20Abdul%20Aziz/Downloads/bgtubesarsikom.svg"); 
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+        }
+        .content {
+            padding: 20px;
+            background-color: rgba(233, 118, 18, 0.5);
+            width: 97%;
+        }
+        .bg_poto {
+          width: 200px;
+          height: 200px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color:rgba(233, 118, 18, 0.5);
+          border-radius: 50%;
+          margin-bottom: 30px;
+        }
+        .poto{
+          width: 98%;
+          height: 98%;
+          border-radius: 50%;
+        }
+        .penjelasan{
+            display:grid;
+            grid-template-columns: 1fr 2fr;
+            align-items: center;
+            gap: 20px;
+            padding: 20px; 
+        }
+        .judul_penjelasan{
+            text-align: center;
+        }
+        .tombol{
+            background-color: #426AAB;
+            padding: 15px 35px;
+            color: white;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-fixed">
+        <div class="bg_poto">
+          <img class="poto" src="file:///C:/Users/M%20Abdul%20Aziz/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/TempState/DA51E350898546DBAFD0FD2D19540E44/WhatsApp%20Image%202024-06-14%20at%2015.21.14_2887e80f.jpg">
+        </div>
+        <div class="content">
+            <h1>TUBES Aritektur jaringan komputer.</h1>
+            <p>Muhammad abdul aziz(607012300126) | Kelas 4705</p>
+        </div>
+    </div>
+    <div style="height: 800px;">
+        <div class="penjelasan">
+            <div>
+                <img src="https://images.fineartamerica.com/images-medium-large-5/wireless-broadband-router-science-photo-library.jpg">
+            </div>
+            <div>
+                <h1 class="judul_penjelasan">Router</h1>
+                <p>Router adalah sebuah perangkat jaringan (networking device) yang bekerja dengan cara menghubungkan berbagai perangkat, seperti smartphone, laptop, tablet, dan lain sebagainya dengan layanan internet. Jika dibayangkan, router bakal menjadi sebuah "jembatan" untuk menyalurkan jaringan internet ke berbagai perangkat yang tersambung dengannya. Selain menjembatani berbagai perangkat, router juga berperan sebagai perangkat yang bisa mengelola jenis data yang dikirimkan (upload) atau diterima (download), lengkap dengan aneka informasi pendukungnya seperti jenis hingga ukuran data tersebut.
+                <a href="https://tekno.kompas.com/read/2022/08/29/14450017/apa-itu-router-definisi-fungsi-dan-jenis-dan-bedanya-dengan-modem" target="_blank">refrensi</a>
+                </p>
+                <a href="https://centrinhoo.000webhostapp.com/"download>
+                    <button class="tombol">unduh tutorial hosting</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
